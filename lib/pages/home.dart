@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:math_bingo/pages/formulas.dart';
+import 'package:math_bingo/pages/play.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -19,28 +20,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(
-        elevation: 0,
-        currentIndex: pageIndex,
-        backgroundColor: Color(0xff66281F),
-        unselectedItemColor: Color(0xffEA5C46),
-        selectedItemColor: Colors.white,
-        onTap: (int index) {
-          pageController.animateToPage(
-            index,
-            duration: Duration(milliseconds: 100),
-            curve: Curves.easeIn,
-          );
-        },
-        items: const [
-          BottomNavigationBarItem(
-              icon: Icon(FluentIcons.home_20_filled), label: 'Inicio'),
-          BottomNavigationBarItem(
-              icon: Icon(FluentIcons.math_formula_20_filled),
-              label: 'Formulas'),
-        ],
-      ),
-      backgroundColor: Color(0xffD6675A),
+      backgroundColor: Color(0xff400101),
       body: PageView(
         controller: pageController,
         onPageChanged: (int page) {
@@ -57,10 +37,28 @@ class _HomeState extends State<Home> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    ElevatedButton(
-                      onPressed: () {},
-                      child: const Text(
-                        'Começar',
+                    SizedBox(
+                      width: 180,
+                      height: 60,
+                      child: OutlinedButton(
+                        style: OutlinedButton.styleFrom(
+                            side: const BorderSide(
+                          width: 1,
+                          color: Colors.white,
+                        )),
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => PlayScreen()));
+                        },
+                        child: const Text(
+                          'Começar',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 19,
+                          ),
+                        ),
                       ),
                     ),
                   ],

@@ -11,6 +11,10 @@ class FormulasData {
     formulas.add(Formula(formula: formula, result: result));
   }
 
+  void removeFormula(String formula) {
+    formulas.removeWhere((e) => e.formula == formula && e.result == e.result);
+  }
+
   Map toJson() {
     return {'formulas': formulas};
   }
@@ -31,7 +35,7 @@ class Formula {
   Formula({required this.formula, required this.result});
 
   Map toJson() {
-    return {formula: formula, result: result};
+    return {'formula': formula, 'result': result};
   }
 
   static Formula fromJson(Map json) {

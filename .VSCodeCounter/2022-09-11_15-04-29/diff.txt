@@ -1,0 +1,114 @@
+Date : 2022-09-11 15:04:29
+Directory : e:\Projects\GitHub\flutter-apps\math_bingo\lib
+Total : 47 files,  -1469 codes, -272 comments, -276 blanks, all -2017 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Properties |          2 |         -8 |          0 |         -2 |        -10 |
+| Markdown   |          2 |        -13 |          0 |         -9 |        -22 |
+| Dart       |          1 |        -14 |        -10 |         -7 |        -31 |
+| YAML       |          2 |        -21 |        -83 |        -20 |       -124 |
+| CMake      |          2 |        -36 |          0 |        -12 |        -48 |
+| HTML       |          1 |        -37 |        -16 |         -6 |        -59 |
+| Swift      |          4 |        -38 |         -3 |        -12 |        -53 |
+| Groovy     |          3 |        -89 |         -5 |        -22 |       -116 |
+| JSON       |          4 |       -248 |          0 |         -4 |       -252 |
+| XML        |         10 |       -466 |        -48 |        -12 |       -526 |
+| C++        |         16 |       -499 |       -107 |       -170 |       -776 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                     | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                        |         47 |     -1,469 |       -272 |       -276 |     -2,017 |
+| ..                                                                                                       |         47 |     -1,469 |       -272 |       -276 |     -2,017 |
+| ..\android                                                                                               |         12 |       -159 |        -51 |        -33 |       -243 |
+| ..\android\app                                                                                           |          8 |       -116 |        -51 |        -22 |       -189 |
+| ..\android\app\src                                                                                       |          7 |        -62 |        -46 |         -9 |       -117 |
+| ..\android\app\src\debug                                                                                 |          1 |         -4 |         -4 |         -1 |         -9 |
+| ..\android\app\src\main                                                                                  |          5 |        -54 |        -38 |         -7 |        -99 |
+| ..\android\app\src\main\res                                                                              |          4 |        -26 |        -32 |         -6 |        -64 |
+| ..\android\app\src\main\res\drawable                                                                     |          1 |         -4 |         -7 |         -2 |        -13 |
+| ..\android\app\src\main\res\drawable-v21                                                                 |          1 |         -4 |         -7 |         -2 |        -13 |
+| ..\android\app\src\main\res\values                                                                       |          1 |         -9 |         -9 |         -1 |        -19 |
+| ..\android\app\src\main\res\values-night                                                                 |          1 |         -9 |         -9 |         -1 |        -19 |
+| ..\android\app\src\profile                                                                               |          1 |         -4 |         -4 |         -1 |         -9 |
+| ..\android\gradle                                                                                        |          1 |         -5 |          0 |         -1 |         -6 |
+| ..\android\gradle\wrapper                                                                                |          1 |         -5 |          0 |         -1 |         -6 |
+| ..\ios                                                                                                   |          7 |       -222 |         -2 |         -9 |       -233 |
+| ..\ios\Runner                                                                                            |          7 |       -222 |         -2 |         -9 |       -233 |
+| ..\ios\Runner\Assets.xcassets                                                                            |          3 |       -148 |          0 |         -4 |       -152 |
+| ..\ios\Runner\Assets.xcassets\AppIcon.appiconset                                                         |          1 |       -122 |          0 |         -1 |       -123 |
+| ..\ios\Runner\Assets.xcassets\LaunchImage.imageset                                                       |          2 |        -26 |          0 |         -3 |        -29 |
+| ..\ios\Runner\Base.lproj                                                                                 |          2 |        -61 |         -2 |         -2 |        -65 |
+| ..\linux                                                                                                 |          6 |       -112 |        -27 |        -44 |       -183 |
+| ..\linux\flutter                                                                                         |          3 |        -26 |         -9 |        -17 |        -52 |
+| ..\macos                                                                                                 |          5 |       -437 |         -3 |        -12 |       -452 |
+| ..\macos\Flutter                                                                                         |          1 |         -6 |         -3 |         -4 |        -13 |
+| ..\macos\Runner                                                                                          |          4 |       -431 |          0 |         -8 |       -439 |
+| ..\macos\Runner\Assets.xcassets                                                                          |          1 |        -68 |          0 |         -1 |        -69 |
+| ..\macos\Runner\Assets.xcassets\AppIcon.appiconset                                                       |          1 |        -68 |          0 |         -1 |        -69 |
+| ..\macos\Runner\Base.lproj                                                                               |          1 |       -343 |          0 |         -1 |       -344 |
+| ..\test                                                                                                  |          1 |        -14 |        -10 |         -7 |        -31 |
+| ..\web                                                                                                   |          2 |        -72 |        -16 |         -7 |        -95 |
+| ..\windows                                                                                               |         11 |       -422 |        -80 |       -137 |       -639 |
+| ..\windows\flutter                                                                                       |          3 |        -26 |         -9 |        -17 |        -52 |
+| ..\windows\runner                                                                                        |          8 |       -396 |        -71 |       -120 |       -587 |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                 | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\Projects\GitHub\flutter-apps\math_bingo\README.md                                                     | Markdown   |        -10 |          0 |         -7 |        -17 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\analysis_options.yaml                                         | YAML       |         -3 |        -23 |         -4 |        -30 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\build.gradle                                      | Groovy     |        -54 |         -5 |        -13 |        -72 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\debug\AndroidManifest.xml                     | XML        |         -4 |         -4 |         -1 |         -9 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\main\AndroidManifest.xml                      | XML        |        -28 |         -6 |         -1 |        -35 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\main\res\drawable-v21\launch_background.xml   | XML        |         -4 |         -7 |         -2 |        -13 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\main\res\drawable\launch_background.xml       | XML        |         -4 |         -7 |         -2 |        -13 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\main\res\values-night\styles.xml              | XML        |         -9 |         -9 |         -1 |        -19 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\main\res\values\styles.xml                    | XML        |         -9 |         -9 |         -1 |        -19 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\app\src\profile\AndroidManifest.xml                   | XML        |         -4 |         -4 |         -1 |         -9 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\build.gradle                                          | Groovy     |        -27 |          0 |         -5 |        -32 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\gradle.properties                                     | Properties |         -3 |          0 |         -1 |         -4 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\gradle\wrapper\gradle-wrapper.properties              | Properties |         -5 |          0 |         -1 |         -6 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\android\settings.gradle                                       | Groovy     |         -8 |          0 |         -4 |        -12 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\AppDelegate.swift                                  | Swift      |        -12 |          0 |         -2 |        -14 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json   | JSON       |       -122 |          0 |         -1 |       -123 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json | JSON       |        -23 |          0 |         -1 |        -24 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md     | Markdown   |         -3 |          0 |         -2 |         -5 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\Base.lproj\LaunchScreen.storyboard                 | XML        |        -36 |         -1 |         -1 |        -38 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\Base.lproj\Main.storyboard                         | XML        |        -25 |         -1 |         -1 |        -27 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\ios\Runner\Runner-Bridging-Header.h                           | C++        |         -1 |          0 |         -1 |         -2 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\linux\flutter\generated_plugin_registrant.cc                  | C++        |         -3 |         -4 |         -5 |        -12 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\linux\flutter\generated_plugin_registrant.h                   | C++        |         -5 |         -5 |         -6 |        -16 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\linux\flutter\generated_plugins.cmake                         | CMake      |        -18 |          0 |         -6 |        -24 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\linux\main.cc                                                 | C++        |         -5 |          0 |         -2 |         -7 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\linux\my_application.cc                                       | C++        |        -74 |        -11 |        -20 |       -105 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\linux\my_application.h                                        | C++        |         -7 |         -7 |         -5 |        -19 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\macos\Flutter\GeneratedPluginRegistrant.swift                 | Swift      |         -6 |         -3 |         -4 |        -13 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\macos\Runner\AppDelegate.swift                                | Swift      |         -8 |          0 |         -2 |        -10 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\macos\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json | JSON       |        -68 |          0 |         -1 |        -69 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\macos\Runner\Base.lproj\MainMenu.xib                          | XML        |       -343 |          0 |         -1 |       -344 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\macos\Runner\MainFlutterWindow.swift                          | Swift      |        -12 |          0 |         -4 |        -16 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\pubspec.yaml                                                  | YAML       |        -18 |        -60 |        -16 |        -94 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\test\widget_test.dart                                         | Dart       |        -14 |        -10 |         -7 |        -31 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\web\index.html                                                | HTML       |        -37 |        -16 |         -6 |        -59 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\web\manifest.json                                             | JSON       |        -35 |          0 |         -1 |        -36 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\flutter\generated_plugin_registrant.cc                | C++        |         -3 |         -4 |         -5 |        -12 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\flutter\generated_plugin_registrant.h                 | C++        |         -5 |         -5 |         -6 |        -16 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\flutter\generated_plugins.cmake                       | CMake      |        -18 |          0 |         -6 |        -24 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\flutter_window.cpp                             | C++        |        -45 |         -4 |        -13 |        -62 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\flutter_window.h                               | C++        |        -20 |         -5 |         -9 |        -34 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\main.cpp                                       | C++        |        -30 |         -4 |        -10 |        -44 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\resource.h                                     | C++        |         -9 |         -6 |         -2 |        -17 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\utils.cpp                                      | C++        |        -53 |         -2 |        -10 |        -65 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\utils.h                                        | C++        |         -8 |         -6 |         -6 |        -20 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\win32_window.cpp                               | C++        |       -183 |        -15 |        -48 |       -246 |
+| e:\Projects\GitHub\flutter-apps\math_bingo\windows\runner\win32_window.h                                 | C++        |        -48 |        -29 |        -22 |        -99 |
+| Total                                                                                                    |            |     -1,469 |       -272 |       -276 |     -2,017 |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
